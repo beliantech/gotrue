@@ -62,7 +62,7 @@ DATABASE_URL=root@localhost/gotrue
 
 `DB_DRIVER` - `string` **required**
 
-Chooses what dialect of database you want. Must be `mysql`.
+Chooses what dialect of database you want. Must be `postgresql`. For `mysql` support see https://github.com/netlify/gotrue.
 
 `DATABASE_URL` (no prefix) / `DB_DATABASE_URL` - `string` **required**
 
@@ -280,7 +280,7 @@ Default Content (if template is unavailable):
 
 GoTrue exposes the following endpoints:
 
-* **GET /settings**
+- **GET /settings**
 
   Returns the publicly available settings for this gotrue instance.
 
@@ -297,7 +297,7 @@ GoTrue exposes the following endpoints:
   }
   ```
 
-* **POST /signup**
+- **POST /signup**
 
   Register a new user with an email and password.
 
@@ -320,7 +320,7 @@ GoTrue exposes the following endpoints:
   }
   ```
 
-* **POST /invite**
+- **POST /invite**
 
   Invites a new user with an email.
 
@@ -343,7 +343,7 @@ GoTrue exposes the following endpoints:
   }
   ```
 
-* **POST /verify**
+- **POST /verify**
 
   Verify a registration or a password recovery. Type can be `signup` or `recovery`
   and the `token` is a token returned from either `/signup` or `/recover`.
@@ -366,7 +366,7 @@ GoTrue exposes the following endpoints:
   }
   ```
 
-* **POST /recover**
+- **POST /recover**
 
   Password recovery. Will deliver a password recovery mail to the user based on
   email address.
@@ -383,7 +383,7 @@ GoTrue exposes the following endpoints:
   {}
   ```
 
-* **POST /token**
+- **POST /token**
 
   This is an OAuth2 endpoint that currently implements
   the password, refresh_token, and authorization_code grant types
@@ -412,7 +412,7 @@ GoTrue exposes the following endpoints:
   }
   ```
 
-* **GET /user**
+- **GET /user**
 
   Get the JSON object for the logged in user (requires authentication)
 
@@ -428,7 +428,7 @@ GoTrue exposes the following endpoints:
   }
   ```
 
-* **PUT /user**
+- **PUT /user**
 
   Update a user (Requires authentication). Apart from changing email/password, this
   method can be used to set custom user data.
@@ -457,7 +457,7 @@ GoTrue exposes the following endpoints:
   }
   ```
 
-* **POST /logout**
+- **POST /logout**
 
   Logout a user (Requires authentication).
 
@@ -466,4 +466,4 @@ GoTrue exposes the following endpoints:
 
 ## TODO
 
-* Schema for custom user data in config file
+- Schema for custom user data in config file

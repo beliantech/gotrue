@@ -1,1 +1,1 @@
-DROP TABLE IF EXISTS `{{ index .Options "Namespace" }}instances`;
+DROP TABLE IF EXISTS {{ index .Options "Namespace" }}instances;
