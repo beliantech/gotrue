@@ -9,7 +9,7 @@ please read the [code of conduct](CODE_OF_CONDUCT.md).
 > Install Docker to run tests
 
 ```sh
-$ git clone https://github.com/ernsheong/gotrue
+$ git clone https://github.com/beliantech/gotrue
 $ cd gotrue
 $ make deps
 ```

@@ -6,8 +6,8 @@ import (
 	"net/http"
 
 	"github.com/go-chi/chi"
-	"github.com/ernsheong/gotrue/models"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/models"
+	"github.com/beliantech/gotrue/storage"
 	uuid "github.com/satori/go.uuid"
 )
 

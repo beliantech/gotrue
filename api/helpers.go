@@ -7,9 +7,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/ernsheong/gotrue/conf"
-	"github.com/ernsheong/gotrue/models"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/conf"
+	"github.com/beliantech/gotrue/models"
+	"github.com/beliantech/gotrue/storage"
 	"github.com/pkg/errors"
 	"github.com/satori/go.uuid"
 )

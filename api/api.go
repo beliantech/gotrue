@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/ernsheong/gotrue/conf"
-	"github.com/ernsheong/gotrue/mailer"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/conf"
+	"github.com/beliantech/gotrue/mailer"
+	"github.com/beliantech/gotrue/storage"
 	"github.com/go-chi/chi"
 	"github.com/imdario/mergo"
 	"github.com/netlify/netlify-commons/graceful"

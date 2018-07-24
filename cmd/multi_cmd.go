@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ernsheong/gotrue/api"
-	"github.com/ernsheong/gotrue/conf"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/api"
+	"github.com/beliantech/gotrue/conf"
+	"github.com/beliantech/gotrue/storage"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )

@@ -6,10 +6,10 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/ernsheong/gotrue/conf"
-	"github.com/ernsheong/gotrue/metering"
-	"github.com/ernsheong/gotrue/models"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/conf"
+	"github.com/beliantech/gotrue/metering"
+	"github.com/beliantech/gotrue/models"
+	"github.com/beliantech/gotrue/storage"
 )
 
 type GoTrueClaims struct {

@@ -4,7 +4,7 @@ import (
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/ernsheong/gotrue/conf"
+	"github.com/beliantech/gotrue/conf"
 )
 
 var configFile = ""

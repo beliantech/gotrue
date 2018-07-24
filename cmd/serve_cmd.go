@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ernsheong/gotrue/api"
-	"github.com/ernsheong/gotrue/conf"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/api"
+	"github.com/beliantech/gotrue/conf"
+	"github.com/beliantech/gotrue/storage"
 	uuid "github.com/satori/go.uuid"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

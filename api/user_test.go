@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ernsheong/gotrue/conf"
-	"github.com/ernsheong/gotrue/models"
+	"github.com/beliantech/gotrue/conf"
+	"github.com/beliantech/gotrue/models"
 	uuid "github.com/satori/go.uuid"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

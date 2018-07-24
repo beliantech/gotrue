@@ -5,7 +5,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/ernsheong/gotrue/conf"
+	"github.com/beliantech/gotrue/conf"
 	"golang.org/x/oauth2"
 )
 

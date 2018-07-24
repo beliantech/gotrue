@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ernsheong/gotrue/conf"
-	"github.com/ernsheong/gotrue/models"
-	"github.com/ernsheong/gotrue/storage"
-	"github.com/ernsheong/gotrue/storage/test"
+	"github.com/beliantech/gotrue/conf"
+	"github.com/beliantech/gotrue/models"
+	"github.com/beliantech/gotrue/storage"
+	"github.com/beliantech/gotrue/storage/test"
 	"github.com/satori/go.uuid"
 	"github.com/stretchr/testify/require"
 )

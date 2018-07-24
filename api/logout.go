@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/ernsheong/gotrue/models"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/models"
+	"github.com/beliantech/gotrue/storage"
 )
 
 // Logout is the endpoint for logging out a user and thereby revoking any refresh tokens

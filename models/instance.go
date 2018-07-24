@@ -5,8 +5,8 @@ import (
 	"time"
 
 	"github.com/gobuffalo/pop"
-	"github.com/ernsheong/gotrue/conf"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/conf"
+	"github.com/beliantech/gotrue/storage"
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
 )

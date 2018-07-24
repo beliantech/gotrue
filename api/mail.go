@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/ernsheong/gotrue/crypto"
-	"github.com/ernsheong/gotrue/mailer"
-	"github.com/ernsheong/gotrue/models"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/crypto"
+	"github.com/beliantech/gotrue/mailer"
+	"github.com/beliantech/gotrue/models"
+	"github.com/beliantech/gotrue/storage"
 	"github.com/pkg/errors"
 )
 

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/ernsheong/gotrue/models"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/models"
+	"github.com/beliantech/gotrue/storage"
 )
 
 // InviteParams are the parameters the Signup endpoint accepts

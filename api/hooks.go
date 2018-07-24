@@ -18,9 +18,9 @@ import (
 	uuid "github.com/satori/go.uuid"
 	"github.com/sirupsen/logrus"
 
-	"github.com/ernsheong/gotrue/conf"
-	"github.com/ernsheong/gotrue/models"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/conf"
+	"github.com/beliantech/gotrue/models"
+	"github.com/beliantech/gotrue/storage"
 )
 
 type HookEvent string

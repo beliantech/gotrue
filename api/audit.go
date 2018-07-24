@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/ernsheong/gotrue/models"
+	"github.com/beliantech/gotrue/models"
 )
 
 var filterColumnMap = map[string][]string{

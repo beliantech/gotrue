@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"strconv"
 
-	"github.com/ernsheong/gotrue/models"
+	"github.com/beliantech/gotrue/models"
 )
 
 const defaultPerPage = 50

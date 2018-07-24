@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/gobuffalo/pop"
-	"github.com/ernsheong/gotrue/crypto"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/crypto"
+	"github.com/beliantech/gotrue/storage"
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
 )

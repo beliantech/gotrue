@@ -10,9 +10,9 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/ernsheong/gotrue/api/provider"
-	"github.com/ernsheong/gotrue/models"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/api/provider"
+	"github.com/beliantech/gotrue/models"
+	"github.com/beliantech/gotrue/storage"
 	uuid "github.com/satori/go.uuid"
 	"github.com/sirupsen/logrus"
 )

@@ -2,7 +2,7 @@ package models
 
 import (
 	"github.com/gobuffalo/pop"
-	"github.com/ernsheong/gotrue/storage"
+	"github.com/beliantech/gotrue/storage"
 )
 
 type Pagination struct {

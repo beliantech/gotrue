@@ -4,7 +4,7 @@ import (
 	"net/url"
 
 	"github.com/gobuffalo/pop"
-	"github.com/ernsheong/gotrue/conf"
+	"github.com/beliantech/gotrue/conf"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

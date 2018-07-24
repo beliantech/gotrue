@@ -1,6 +1,6 @@
 package mailer
 
-import "github.com/ernsheong/gotrue/models"
+import "github.com/beliantech/gotrue/models"
 
 type noopMailer struct {
 }
