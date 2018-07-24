@@ -5,11 +5,11 @@ import (
 	"net/http"
 	"regexp"
 
-	"github.com/go-chi/chi"
-	"github.com/imdario/mergo"
 	"github.com/ernsheong/gotrue/conf"
 	"github.com/ernsheong/gotrue/mailer"
 	"github.com/ernsheong/gotrue/storage"
+	"github.com/go-chi/chi"
+	"github.com/imdario/mergo"
 	"github.com/netlify/netlify-commons/graceful"
 	"github.com/rs/cors"
 	uuid "github.com/satori/go.uuid"
@@ -147,7 +147,7 @@ func NewAPIWithVersion(ctx context.Context, globalConfig *conf.GlobalConfigurati
 		AllowCredentials: true,
 	})
 
-	api.handler = corsHandler.Handler(chi.ServerBaseContext(r, ctx))
+	api.handler = corsHandler.Handler(chi.ServerBaseContext(ctx, r))
 	return api
 }
 
