@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS {{ index .Options "Namespace" }}users (
   last_sign_in_at timestamp NULL DEFAULT NULL,
   raw_app_meta_data json DEFAULT '{}',
   raw_user_meta_data json DEFAULT '{}',
-  is_super_admin smallint DEFAULT NULL,
+  is_super_admin boolean DEFAULT NULL,
   created_at timestamp NULL DEFAULT NULL,
   updated_at timestamp NULL DEFAULT NULL
 );

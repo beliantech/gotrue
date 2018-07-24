@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gobuffalo/pop"
 	"github.com/beliantech/gotrue/storage"
+	"github.com/gobuffalo/pop"
 	"github.com/pkg/errors"
 	"github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"

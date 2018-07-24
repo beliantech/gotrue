@@ -3,9 +3,9 @@ package models
 import (
 	"time"
 
-	"github.com/gobuffalo/pop"
 	"github.com/beliantech/gotrue/crypto"
 	"github.com/beliantech/gotrue/storage"
+	"github.com/gobuffalo/pop"
 	"github.com/pkg/errors"
 	uuid "github.com/satori/go.uuid"
 )
