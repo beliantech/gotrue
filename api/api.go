@@ -7,9 +7,9 @@ import (
 
 	"github.com/go-chi/chi"
 	"github.com/imdario/mergo"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/mailer"
-	"github.com/netlify/gotrue/storage"
+	"github.com/ernsheong/gotrue/conf"
+	"github.com/ernsheong/gotrue/mailer"
+	"github.com/ernsheong/gotrue/storage"
 	"github.com/netlify/netlify-commons/graceful"
 	"github.com/rs/cors"
 	uuid "github.com/satori/go.uuid"

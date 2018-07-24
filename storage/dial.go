@@ -8,7 +8,7 @@ import (
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/gobuffalo/pop"
 	"github.com/gobuffalo/pop/columns"
-	"github.com/netlify/gotrue/conf"
+	"github.com/ernsheong/gotrue/conf"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

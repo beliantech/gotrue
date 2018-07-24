@@ -5,8 +5,8 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/ernsheong/gotrue/models"
+	"github.com/ernsheong/gotrue/storage"
 )
 
 const (

@@ -3,8 +3,8 @@ package mailer
 import (
 	"net/url"
 
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
+	"github.com/ernsheong/gotrue/conf"
+	"github.com/ernsheong/gotrue/models"
 	"github.com/netlify/mailme"
 )
 

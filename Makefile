@@ -7,7 +7,7 @@ help: ## Show this help.
 all: lint vet test build ## Run the tests and build the binary.
 
 build: ## Build the binary.
-	go build -ldflags "-X github.com/netlify/gotrue/cmd.Version=`git rev-parse HEAD`"
+	go build -ldflags "-X github.com/ernsheong/gotrue/cmd.Version=`git rev-parse HEAD`"
 
 deps: ## Install dependencies.
 	@go get -u github.com/gobuffalo/pop/soda

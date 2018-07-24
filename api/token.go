@@ -6,10 +6,10 @@ import (
 	"time"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/metering"
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/ernsheong/gotrue/conf"
+	"github.com/ernsheong/gotrue/metering"
+	"github.com/ernsheong/gotrue/models"
+	"github.com/ernsheong/gotrue/storage"
 )
 
 type GoTrueClaims struct {

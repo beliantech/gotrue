@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/gobuffalo/pop"
-	"github.com/netlify/gotrue/storage"
+	"github.com/ernsheong/gotrue/storage"
 	"github.com/pkg/errors"
 	"github.com/satori/go.uuid"
 	"golang.org/x/crypto/bcrypt"

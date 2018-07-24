@@ -4,8 +4,8 @@ import (
 	"context"
 
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/models"
+	"github.com/ernsheong/gotrue/conf"
+	"github.com/ernsheong/gotrue/models"
 	uuid "github.com/satori/go.uuid"
 )
 

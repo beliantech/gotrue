@@ -3,8 +3,8 @@ package api
 import (
 	"net/http"
 
-	"github.com/netlify/gotrue/models"
-	"github.com/netlify/gotrue/storage"
+	"github.com/ernsheong/gotrue/models"
+	"github.com/ernsheong/gotrue/storage"
 )
 
 // Logout is the endpoint for logging out a user and thereby revoking any refresh tokens

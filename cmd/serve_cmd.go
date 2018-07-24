@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/netlify/gotrue/api"
-	"github.com/netlify/gotrue/conf"
-	"github.com/netlify/gotrue/storage"
+	"github.com/ernsheong/gotrue/api"
+	"github.com/ernsheong/gotrue/conf"
+	"github.com/ernsheong/gotrue/storage"
 	uuid "github.com/satori/go.uuid"
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
