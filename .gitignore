@@ -1,5 +1,4 @@
 .env
-vendor/
 gotrue
 
 .DS_Store
